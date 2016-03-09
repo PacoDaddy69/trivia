@@ -18,7 +18,7 @@ $(document).ready(function()	{
 		
 		$('.right').text('CORRECT');
 		
-		$('.question').append('<button>Go On<button>');
+		$('.question').append('<button>Go On</button>');
 		
 	});
 	
