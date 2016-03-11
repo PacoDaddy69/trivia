@@ -41,22 +41,33 @@ a:hover	{
 	
 }
 
-.incorrect	{
+.red	{
 	
 	background-color: red;
-	text-decoration: underline;
 	
 }
 
-.correct	{
+.green	{
 	
 	background-color: green;
-	text-decoration: underline;
 	
 }
 
 button	{
 	
 	margin-top: 20px;
+	
+}
+
+.answer	{
+	
+	text-decoration: underline;
+	
+}
+
+.back	{
+
+	margin-bottom: 20px;
+	margin-left: 20px;
 	
 }

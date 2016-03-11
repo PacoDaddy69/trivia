@@ -22,13 +22,9 @@ $(document).ready(function()	{
 		
 		$('.answer').text(b);
 		
-		$('.answer').addClass('green');
+		$('.answer').addClass('red');
 		
-		$('.right').text('CORRECT!');
-		
-		$('button').remove();
-		
-		$('.question').append('<a href="q2.html"><button>GO ON</button></a>');
+		$('.right').text('INCORRECT!');
 		
 	});
 	
@@ -46,9 +42,13 @@ $(document).ready(function()	{
 		
 		$('.answer').text(d);
 		
-		$('.answer').addClass('red');
+		$('.answer').addClass('green');
 		
-		$('.right').text('INCORRECT!');
+		$('.right').text('CORRECT!');
+		
+		$('button').remove();
+		
+		$('.question').append('<a href="q3.html"><button>GO ON</button></a>');
 		
 	});
 	
